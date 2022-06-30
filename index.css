@@ -49,14 +49,74 @@ margin-top: 5px;
     margin-top: 100px;
 }
 #About{
-    height: 200px;
-    width: 50%;
+    display: flex;
+    width: 65%;
     margin: auto;
-    font-size: 20px;
+    justify-content: space-between;
+}
+#About>img{
+    width: 200px;
+}
+#About>p{
+    width: 400px;
     text-align: justify;
-    padding: 0px 15px;
-    border: 2px dashed red;
+    font-size: 20px;
+    border: 1px dashed blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+#About>h2{
+    margin-top: 150px;
+}
+table{
+ width: 100%;
+}
+table,th,td{
+    border: 1px solid black ;
+    text-align: center;
+}
+#table>h2{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    gap: 10px;
+}
+.projects>img{
+    width: 60%;
+    height: 350px;
+    border: 1px solid black;
+}
+.projectabout{
+    width: 250px;
+    height: 340px;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 5px;
+}
+.projects a{
+text-decoration:  none;
+gap: 10px;
+color: black;
+}
+.projects a:hover{
+    background-color: aqua;
+    padding: 10px 5px;
     border-radius: 15px;
-    background-color: rgb(230, 122, 122);
+    box-sizing: border-box;
+}
+#contact{
+    width: 70%;
+    margin: auto;
+    height: 200px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+#contact>h3{
+    border: 1px solid blue;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
